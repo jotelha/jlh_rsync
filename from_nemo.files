@@ -1,0 +1,69 @@
+# all directories
+*/
+
+# global files
+template/*.sh
+template/*.pdb
+template/*.mdp
+template/*.txt
+batch/*.sh
+
+# *.sh
+# rsync include pattern lists
+*.files
+# all python scripts
+#*.py
+#*.ipynb
+# all png images
+# *.png
+# all important GMX files
+# *.itp
+*.gro
+*.pdb
+# *.mdp
+*.ndx
+# *.xvg
+# *.log
+*.top
+# all txt reports
+*_report.txt
+
+# single files of interest
+5ns_av_md_ds_vacf.xvg
+# 5ns_ee_md_ds_vacf.xvg
+# 5ns_md_ds_vacf.xvg
+# 5ns_md_ds_mds.xvg
+5ns_av_md_ds_msd_r10.xvg
+# 5ns_ee_md_ds_msd_r10.xvg
+5ns_av_md_ds_D.xvg
+# 5ns_ee_md_ds_D.xvg
+
+# data averaged over all trajectory chops
+all_av_md_ds_vacf.xvg
+# all_ee_md_ds_vacf.xvg
+# all_md_ds_vacf.xvg
+# all_md_ds_msd.xvg
+all_av_md_ds_msd_r10.xvg
+# all_ee_md_ds_msd_r10.xvg
+all_av_md_ds_D.xvg
+# all_ee_md_ds_D.xvg
+xtc_md_ds_rgyr.xvg
+xtc_md_ds_rgyr_p.xvg
+xtc_md_ds_rgyr_moi.xvg
+5ns_md_ds_rgyr.xvg
+5ns_md_ds_rgyr_p.xvg
+5ns_md_ds_rgyr_moi.xvg
+all_md_ds_rgyr.xvg
+all_md_ds_rgyr_p.xvg
+all_md_ds_rgyr_moi.xvg
+
+# log files
+pp_vacf.log
+pp_vacf_analyze.log
+pp_msd.log
+pp_msd_analyze.log
+pp_rgyr.log
+
+global_report.csv
+summary.xlsx
+README
