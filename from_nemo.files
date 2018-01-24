@@ -16,6 +16,8 @@ batch/*.sh
 #*.ipynb
 # all png images
 # *.png
+# all .mp4 movies
+*.mp4
 # all important GMX files
 # *.itp
 *.gro
