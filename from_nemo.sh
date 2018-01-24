@@ -24,12 +24,12 @@
 
 # --out-format='%t %f %b'
 
-
-
+# remote_path='fr_jh1130@login1.nemo.uni-freiburg.de:/work/ws/nemo/fr_jh1130-201708-0/jobs/gmxlab/sds/201801/farafonov2017developing/1ds/'
+source set_remote_path.sh
 
 # exclude hidden directories
 #   --exclude='.*/'
 # rsync $1 -r -p -t -g -v --stats --exclude=".*/" --include-from="from_nemo.files" \
 rsync $1 -r -p -t -g -v --stats --exclude=".*/" --include-from="from_nemo.files" \
   --exclude='*' --prune-empty-dirs -hhh \
-  fr_jh1130@login1.nemo.uni-freiburg.de:/work/ws/nemo/fr_jh1130-201708-0/jobs/gmxlab/sds/201801/farafonov2017developing/60ds/ .
+  "${remote_path}" .
